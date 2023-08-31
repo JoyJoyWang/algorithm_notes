@@ -3,10 +3,11 @@ This is used to do learning notes and summaries for algorithm and data structure
 # Algorithm Design 基本算法的证明过程
 ## 目录
 
-- [Proof: EFT in interval scheduling is optimal](#Proof: EFT in interval scheduling is optimal)
-- [Minimum Spanning Tree](#Minimum Spanning Tree)
-- [Proof: Huffman Codes is optimal](#Proof: Huffman Codes is optimal)
-- [MRP(multi-level regression with poststratification)](#MRP(multi-level regression with poststratification))
+- [Algorithm Design 基本算法的证明过程](#algorithm-design-基本算法的证明过程)
+  - [Proof: EFT in interval scheduling is optimal](#proof-eft-in-interval-scheduling-is-optimal)
+  - [Minimum Spanning Tree](#minimum-spanning-tree)
+  - [Proof: Huffman Codes is optimal](#proof-huffman-codes-is-optimal)
+  - [MRP(multi-level regression with poststratification)](#mrpmulti-level-regression-with-poststratification)
 
 ## Proof: EFT in interval scheduling is optimal
 
