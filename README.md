@@ -1,8 +1,12 @@
-# algorithm_notes
+algorithm_notes
 This is used to do learning notes and summaries for algorithm and data structure.
 # Algorithm Design 基本算法的证明过程
+## 目录
 
-[TOC]
+- [Proof: EFT in interval scheduling is optimal](#Proof: EFT in interval scheduling is optimal)
+- [Minimum Spanning Tree](#Minimum Spanning Tree)
+- [Proof: Huffman Codes is optimal](#Proof: Huffman Codes is optimal)
+- [MRP(multi-level regression with poststratification)](#MRP(multi-level regression with poststratification))
 
 ## Proof: EFT in interval scheduling is optimal
 
