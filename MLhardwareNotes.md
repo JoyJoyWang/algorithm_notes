@@ -32,16 +32,17 @@
 - 关于外部内存的还有，从随机地址loading数据，会导致到达不了带宽峰值。一直从连续的内存地址加载才能实现100%带宽，因为随机的地址不能被打包进一个缓存行cache line。如果这样的话可以一行一行地读取数据。
 - 复杂的DNN拓扑结构可能不能完全用芯片
 
-![image](https://github.com/JoyJoyWang/algorithm_notes/assets/67251304/7fd71fc7-1b14-4b3f-842b-9d9e618aa102)
-MLP0这个应用在不同的处理器上有不同的operational intensity，为啥？ 不同的处理器支持的精度不同。 
+![image](https://github.com/JoyJoyWang/algorithm_notes/assets/67251304/7fd71fc7-1b14-4b3f-842b-9d9e618aa102)  
+
+MLP0这个应用在不同的处理器上有不同的operational intensity，原因：不同的处理器支持的精度不同。 
 
 ### Metrix
-
+  
 ![image](https://github.com/JoyJoyWang/algorithm_notes/assets/67251304/890a5eed-e6b4-4aae-9245-674b4263b454)
 
 ### latency延迟和throuhput吞吐量
 latency是指运行一个inference有多快，用多少秒完成
-throughput是每秒能运行几个inference
+throughput是每秒能运行几个inference  
 ![image](https://github.com/JoyJoyWang/algorithm_notes/assets/67251304/28ee56ee-d0cc-429c-9f18-5d6db82da492)
 
 
