@@ -17,3 +17,8 @@
 $sudo apt-get install virtualbox-guest-x11
 $VBoxClient --clipboard
 ```
+# 3. 解决共享文件夹no permission问题
+把自己添加到这个vboxsf组里面：  
+```
+sudo usermod -a -G vboxsf 当前用户名
+```
